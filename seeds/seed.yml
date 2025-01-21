@@ -1,0 +1,6 @@
+seeds:
+  - name: first_seed
+    config:
+      column_types:
+        id: varchar
+        star: varchar

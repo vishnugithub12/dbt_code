@@ -1,0 +1,11 @@
+sources:
+    - name: "source_tables"
+      database: "{{('DEV')}}"
+      schema: "DBT_SOURCE"
+      tables:
+        - name: AGENTS
+        - name: COMPANY
+        - name: CUSTOMER
+        - name: DEPARTMENT
+        - name: ORDERS
+        - name: dup_table_id
