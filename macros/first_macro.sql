@@ -1,3 +1,3 @@
-{{%macro first_macro('id','amt')%}}
-select id || ' ' || amt as idamt FROM DEV.DBT_SOURCE.first_macro
-{{%endmacro%}}
+{% macro kvs() %}
+    select 1 as id
+{% endmacro %}
